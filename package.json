@@ -3,12 +3,20 @@
   "version": "1.0.0",
   "description": "AI Governance MCP Server - GATRI trust scoring, kill-switch, EU AI Act compliance for Claude",
   "main": "dist/index.js",
-  "bin": { "vectordecisions-mcp-server": "dist/index.js" },
+  "bin": {
+    "vectordecisions-mcp-server": "dist/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js"
   },
-  "keywords": ["mcp", "ai-governance", "trust-scoring", "eu-ai-act", "claude"],
+  "keywords": [
+    "mcp",
+    "ai-governance",
+    "trust-scoring",
+    "eu-ai-act",
+    "claude"
+  ],
   "author": "NikitaDatar",
   "license": "MIT",
   "type": "commonjs",
@@ -17,7 +25,7 @@
     "zod": "^3.22.0"
   },
   "devDependencies": {
-    "typescript": "^5.3.0",
-    "@types/node": "^20.0.0"
+    "@types/node": "^20.19.39",
+    "typescript": "^5.3.0"
   }
 }

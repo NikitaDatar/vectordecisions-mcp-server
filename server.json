@@ -1,17 +1,17 @@
 {
   "": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.NikitaDatar/vectordecisions-mcp-server",
-  "description": "AI Governance MCP Server - GATRI trust scoring, kill-switch, EU AI Act compliance for Claude",
+  "description": "Vector Decisions MCP Server - GATRI action assurance, contextual decisions, kill-switch and EU AI Act governance",
   "repository": {
     "url": "https://github.com/NikitaDatar/vectordecisions-mcp-server",
     "source": "github"
   },
-  "version": "1.0.3",
+  "version": "1.1.0",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "vectordecisions-mcp-server",
-      "version": "1.0.3",
+      "version": "1.1.0",
       "transport": {
         "type": "stdio"
       }
